@@ -1,3 +1,46 @@
+/*
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+menggunakan For Loop
+
+**********
+*********
+********
+*******
+******
+*****
+****
+***
+**
+*
+menggunakna while loop dan do while
+ */
+
+//kerjakan dengan baik jangan mencontek 
+
+
+
+
+//your answer 🙏
+// void main(List<String> args) {
+//   for (int i = 0; i < 10; i++) {
+// }
+// }
+
+
+
+
+
+
+//key answer 🔑🔑
 void main() {
   for (int y = 1; y <= 10; y++) {
     print('*' * y);
