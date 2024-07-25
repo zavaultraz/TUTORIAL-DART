@@ -2,7 +2,8 @@
 //     a. Sebuah mobil mulai bergerak dari keadaan diam dengan percepatan konstan sebesar 2 m/s². 
 //      Hitung jarak yang ditempuh mobil setelah 5 detik.
 //     b. Sebuah benda bergerak dengan percepatan konstan 3 m/s². 
-//      Jika benda tersebut memiliki kecepatan awal 4 m/s, berapa jarak yang ditempuh benda tersebut dalam waktu 6 detik?
+//      Jika benda tersebut memiliki kecepatan awal 4 m/s, berapa jarak yang ditempuh benda 
+//      tersebut dalam waktu 6 detik?
 //     c. Sebuah sepeda motor bergerak dengan kecepatan awal 10 m/s 
 //     dan memiliki percepatan 2 m/s². Berapa waktu yang dibutuhkan 
 //     sepeda motor tersebut untuk mencapai kecepatan 30 m/s?
