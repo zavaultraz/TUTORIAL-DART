@@ -5,4 +5,5 @@ print("Luas persegi panjang adalah $luas");
 
 void main(List<String> args) {
   luasPersegi(10, 5.7);
+  luasPersegi(4, 2);
 }
