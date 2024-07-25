@@ -11,10 +11,46 @@ void main() {
   int sisiTrapesium3 = 7;
   int sisiTrapesium4 = 5;
   int tinggiTrapesium = 4;
+  
+   // Jajar Genjang
+  int alasJajarGenjang = 8;
+  int tinggiJajarGenjang = 5;
+  int sisiJajarGenjang = 10;
+
+  // Layang-layang
+  int diagonal1 = 12;
+  int diagonal2 = 8;
+  int sisiLayangLayang1 = 7;
+  int sisiLayangLayang2 = 7;
+
+  // Belah Ketupat
+  int diagonalBelahKetupat1 = 10;
+  int diagonalBelahKetupat2 = 6;
+  int sisiBelahKetupat = 8;
+
+
+
+
+// Trapesium
+  int luasTrapesium = (sisiTrapesium1 + sisiTrapesium2) * tinggiTrapesium ~/ 2;
+  int kelilingTrapesium = sisiTrapesium1 + sisiTrapesium2 + sisiTrapesium3 + sisiTrapesium4;
+
+  // Jajar Genjang
+  int luasJajarGenjang = alasJajarGenjang * tinggiJajarGenjang;
+  int kelilingJajarGenjang = 2 * (alasJajarGenjang + sisiJajarGenjang);
+
+  // Layang-layang
+  int luasLayangLayang = diagonal1 * diagonal2 ~/ 2;
+  int kelilingLayangLayang = 2 * (sisiLayangLayang1 + sisiLayangLayang2);
+
+  // Belah Ketupat
+  int luasBelahKetupat = diagonalBelahKetupat1 * diagonalBelahKetupat2 ~/ 2;
+  int kelilingBelahKetupat = 4 * sisiBelahKetupat;
+
 
   // Nilai pi
-  const int pi22per7 = 22 ~/ 7;
-  const int pi3_14 = 3; // Gunakan integer untuk 3.14, lebih sederhana tetapi kurang akurat
+  const double pi22per7 = 22 / 7;
+  const double pi3_14 = 3.14;
 
   // Persegi Panjang
   int luasPersegiPanjang = panjang * lebar;
@@ -33,13 +69,11 @@ void main() {
   int kelilingSegitiga = sisiSegitiga1 + sisiSegitiga2 + sisiSegitiga3;
 
   // Lingkaran
-  int luasLingkaran22per7 = pi22per7 * radius * radius;
-  int kelilingLingkaran22per7 = 2 * pi22per7 * radius;
+  double luasLingkaran22per7 = pi22per7 * radius * radius;
+  double kelilingLingkaran22per7 = 2 * pi22per7 * radius;
 
 
-  // Trapesium
-  int luasTrapesium = (sisiTrapesium1 + sisiTrapesium2) * tinggiTrapesium ~/ 2;
-  int kelilingTrapesium = sisiTrapesium1 + sisiTrapesium2 + sisiTrapesium3 + sisiTrapesium4;
+
 
   // Menampilkan hasil
   print('Persegi Panjang:');
@@ -58,11 +92,12 @@ void main() {
   print('Luas: $luasLingkaran22per7');
   print('Keliling: $kelilingLingkaran22per7');
 
-  print('\nLingkaran (pi = 3.14):');
-    print('Luas: $luasLingkaran3_14');
-    print('Keliling: $kelilingLingkaran3_14');
+
 
   print('\nTrapesium:');
   print('Luas: $luasTrapesium');
   print('Keliling: $kelilingTrapesium');
+
+  print('luas: $luasBelahKetupat');
+  
 }
