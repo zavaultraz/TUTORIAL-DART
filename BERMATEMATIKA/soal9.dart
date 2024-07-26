@@ -32,3 +32,6 @@ void main() {
   double totalDenganNegosiasi = hitungTotal(tenda, sleepingBag, komporMini, true);
   print('Total biaya dengan negosiasi: Rp$totalDenganNegosiasi');
 }
+
+
+
