@@ -92,5 +92,9 @@ print('===================');
 nama.sort();
 print(nama);
 
+//menghapus elemen dari list berdasrkan kondisi
+nama.removeWhere((element) => element.contains('lugi'));
+print(nama);
+
 
 }
