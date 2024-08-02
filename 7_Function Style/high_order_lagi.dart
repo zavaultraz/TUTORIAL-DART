@@ -19,4 +19,8 @@ void main(List<String> args) {
   int subtract(int a,int b){
     return a-b;
   }
+
+  //memanggil function high ordder
+  calculate(10, 5, add);
+  calculate(19, 5, subtract);
 }
